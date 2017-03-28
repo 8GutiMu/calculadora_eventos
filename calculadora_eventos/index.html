@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>calculadora guti **</title>
+    <script src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <div align="center">
+      <form name="calculadora">
+
+       <table >
+        <tr>
+         <th colspan="4" >
+         <input type="texto" value=0   id="ver"/></th>
+       </tr>
+         <td width="10">
+   <input type="button" name="c" value="C"  onclick="nada()" />
+
+   <!-- input type="reset">
+Crea botón de limpieza (reset). Vacía la forma
+  -->
+  </td>
+  <td width="33">
+  <input type="button" name="dividir" value="/"  onclick="operacion(4)" />
+  </td>
+  <td width="33"><input type="button" name="multiplicar" value="*"  onclick="operacion(3)"/>
+  </td>
+  <td width="31"><input type="button" name="menos" value="-"  onclick="operacion(2)"/>
+  </td>
+</tr>
+ <tr>
+   <td><input type="button" name="siete" value=7  onclick="mostrar(7)"/>
+   </td>
+   <td><input type="button" onclick="mostrar(8)"name="ocho" value="8" />
+   </td>
+   <td><input type="button" name="nueve" value="9" onclick="mostrar(9)" />
+   </td>
+   <td ><input type="button" size="20" name="mas" value="+"  onclick="operacion(1)"/>
+   </td>
+</tr>
+<tr>
+  <td><input type="button" name="cuatro" value="4" onclick="mostrar(4)" />
+  </td>
+  <td><input type="button" name="cinco" onclick="mostrar(5)" value="5" /></td>
+  <td><input type="button" name="seis" onclick="mostrar(6)" value="6" /></td>
+</tr>
+<tr>
+  <td><input type="button" name="uno" value="1" onclick="mostrar(1)"/>
+  </td><td><input type="button"name="dos" onclick="mostrar(2)" value="2" /></td>
+  <td><input type="button" name="tres" value="3" onclick="mostrar(3)"/></td>
+  <td rowspan="2"><input type="button" name="igual" value="=" onclick="resultado()"/></td>
+</tr>
+<tr>
+  <td colspan="2"><input type="button" name="cero" value="0"  onclick="mostrar(0)"/></td>
+  <td><input type="button"name="punto" value="."  onclick="mostrar(.)"/></td>
+</tr>
+
+</table>
+</div>
+</form>
+
+
+</body>
+</html>
